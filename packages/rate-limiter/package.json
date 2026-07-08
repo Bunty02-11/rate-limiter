@@ -1,0 +1,22 @@
+{
+  "name": "@bunty02-11/smart-rate-limiter",
+  "version": "1.0.0",
+  "description": "A pluggable, distributed rate limiter with Token Bucket, Sliding Window support, Memory/Redis stores",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test/tokenBucket.test.js"
+  },
+  "keywords": [
+    "rate-limiter",
+    "express-middleware",
+    "redis",
+    "token-bucket"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "redis": "^6.1.0"
+  }
+}
